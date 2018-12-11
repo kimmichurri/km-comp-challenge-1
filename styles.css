@@ -23,52 +23,54 @@ nav {
 *//*  flex-direction: row;
 */}
 
-.nav-buttons {
-  color: #FFF;
-  padding-left: 35px;
+.nav-icons {
+  margin-left: 10px;
 }
 
+.user-menu {
+  display: inherit;
+}
 
 .user-sign-in {
   align-items: center;
   display: flex;
-  padding-right: 20px;
-  margin-top: 25px;
+  padding-right: 0px;
+  margin-top: -70px;
 }
 
-.user-box {
-  margin: 5px;
+.admin-username {
+  margin-top: -5px;
+
 }
 
-.user-sign-in p {
+
+/*.user-sign-in p {
   padding-right: 28px;
   margin-top: -13px;
-}
+}*/
 
 .logo {
   padding-bottom: 10px;
 }
 
-i {
+/*i {
   width: 5px;
-}
+}*/
 
 ul {
   align-content: flex-start;
   display: flex;
-  margin-left: -50px;
+  margin-left: -30px;
   margin-top: 60px;
-
-
 }
+
 
 li {
   color: #E6E5DB;
   display: inline-block;
-  font-size: 13px;
-  margin-left: 10px;
+  font-size: 15px;
+  margin-left: 9px;
 }
-
 
 
 h1 {
