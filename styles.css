@@ -3,7 +3,7 @@
 */}
 
 body {
-    background-color: #E6E5DB;
+    background-color: #FFF;
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
     padding: 0;
@@ -17,44 +17,15 @@ header {
   justify-content: space-between;
 }
 
+
+
+
+
+/*HEADER LEFT SIDE*/
+
 nav {
   background-color: #194A40;
-/*  display: flex;
-*//*  flex-direction: row;
-*/}
-
-.nav-icons {
-  margin-left: 10px;
 }
-
-.user-menu {
-  display: inherit;
-}
-
-.user-sign-in {
-  align-items: center;
-  display: flex;
-  padding-right: 0px;
-  margin-top: -70px;
-}
-
-.admin-username {
-  margin-top: -5px;
-}
-
-
-/*.user-sign-in p {
-  padding-right: 28px;
-  margin-top: -13px;
-}*/
-
-.logo {
-  padding-bottom: 10px;
-}
-
-/*i {
-  width: 5px;
-}*/
 
 ul {
   align-content: flex-start;
@@ -63,24 +34,71 @@ ul {
   margin-top: 60px;
 }
 
-
 li {
-  color: #E6E5DB;
+  color: #FFF;
   display: inline-block;
   font-size: 15px;
   margin-left: 9px;
 }
 
+.nav-icons {
+  margin-left: 10px;
+}
+
+
+
+
+
+
+/*HEADER RIGHT SIDE*/
+
+.user-menu {
+  display:flex;
+  flex-direction: column;
+  margin-top: 208px;
+  /*display: inherit;*/
+}
+
+.launch-pad {
+display: inline-block;
+/*align-content: center;*/
+}
+
+.user-sign-in {
+  display: flex;
+  margin-top: -75px;
+  margin-right: 28px;
+}
+
+/*.admin-username {
+  margin-top: -128px;
+}*/
+
+/*.user-sign-in p {
+  padding-right: 28px;
+  margin-top: -13px;
+}*/
+
+.logo {
+}
+
+
+
+
+
+
+
+/*DISPLAY CARDS*/
 
 h1 {
-  background-color: #E6E5DB;
+  background-color: #FFF;
   padding: 15px;
 }
 
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  background-color: #E6E5DB;
+  background-color: #FFF;
   height: 100%;
   margin-left: 6px;
   margin-top: -22px;
@@ -163,7 +181,7 @@ p {
 
 .url {
   font-size: 8px;
-  background-color: #E6E5DB;
+  background-color: #FFF;
   height: 25px;
   margin-left: 11px;
   margin-bottom: -5px;
