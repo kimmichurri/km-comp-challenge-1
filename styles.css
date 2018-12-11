@@ -1,0 +1,161 @@
+* {
+/*  font-family: Open-sans, sans-serif;
+*/}
+
+body {
+    background-color: #E6E5DB;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  background-color: #194A40;
+  display: flex;
+  height: 100px;
+  margin-bottom: -13px;
+  justify-content: space-between;
+}
+
+nav {
+  background-color: #194A40;
+/*  display: flex;
+*//*  flex-direction: row;
+*/}
+
+.nav-buttons {
+  color: #FFF;
+  padding-left: 35px;
+}
+
+
+.user-sign-in {
+  align-items: center;
+  display: flex;
+  padding-right: 20px;
+  margin-top: 25px;
+}
+
+.user-box {
+  margin: 5px;
+}
+
+.user-sign-in p {
+  padding-right: 28px;
+  margin-top: -13px;
+}
+
+.logo {
+  padding-bottom: 10px;
+}
+
+i {
+  width: 5px;
+}
+
+ul {
+  align-content: flex-start;
+  display: flex;
+  margin-left: -50px;
+  margin-top: 60px;
+
+
+}
+
+li {
+  color: #E6E5DB;
+  display: inline-block;
+  font-size: 13px;
+  margin-left: -4px;
+}
+
+
+
+h1 {
+  background-color: #E6E5DB;
+  padding: 15px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #E6E5DB;
+  height: 100%;
+  margin-left: 6px;
+  margin-top: -22px;
+  width:100%;
+}
+
+.cards {
+  align-content: space-between;
+  background-color: #FFF;
+  box-shadow: 1px 1px 1px 0px grey;
+  background-color: #FFF;
+  box-shadow-color: #829FB3;
+  display: inline-block;
+  height: 316px;
+  width: 210px;
+  margin: 5px;
+}
+
+.card-top-1 {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/cacti.jpg);
+  height: 112px;
+  width: 100%;
+}
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: -7px;
+}
+
+.name {
+  font-size: 13px;
+}
+
+.date {
+  font-size: 10px;
+}
+
+.url {
+  font-size: 8px;
+  background-color: #E6E5DB;
+  height: 25px;
+  margin-left: 11px;
+  margin-bottom: -5px;
+  margin-top: 25px;
+  padding: 5px;
+  width: 84%;
+}
+
+.playlist {
+  font-size: 10px;
+  margin-top: 18px;
+}
+
+.playlist-name {
+  font-size: 13px;
+  margin-bottom: 11px;
+
+}
+
+.attachments {
+  font-size: 11px;
+  margin-bottom: -4px;
+}
+
+.attachments-number {
+  color: #176340;
+  font-size: 24px;
+  margin-top: 8px;
+}
+
+/*img {
+  height: 112px;
+  width: 100%;
+}*/
+
+
+
+
+
