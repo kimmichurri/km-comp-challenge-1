@@ -66,7 +66,7 @@ li {
   color: #E6E5DB;
   display: inline-block;
   font-size: 13px;
-  margin-left: -4px;
+  margin-left: 10px;
 }
 
 
@@ -103,6 +103,49 @@ h1 {
   height: 112px;
   width: 100%;
 }
+
+.card-top-2 {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/cacti.jpg);
+  height: 112px;
+  width: 100%;
+}
+
+.card-top-3 {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/cacti.jpg);
+  height: 112px;
+  width: 100%;
+}
+
+.card-top-4 {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/cacti.jpg);
+  height: 112px;
+  width: 100%;
+}
+
+.card-top-5 {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/cacti.jpg);
+  height: 112px;
+  width: 100%;
+}
+
+.card-top-6 {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/cacti.jpg);
+  height: 112px;
+  width: 100%;
+}
+
+.card-top-7 {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/cacti.jpg);
+  height: 112px;
+  width: 100%;
+}
+
+.card-top-8 {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/cacti.jpg);
+  height: 112px;
+  width: 100%;
+}
+
 p {
   padding-left: 10px;
   padding-right: 10px;
@@ -150,10 +193,7 @@ p {
   margin-top: 8px;
 }
 
-/*img {
-  height: 112px;
-  width: 100%;
-}*/
+
 
 
 
