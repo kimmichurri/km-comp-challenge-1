@@ -229,6 +229,13 @@ p {
 
 /*MEDIA QUERIES*/
 
+@media screen and (max-width: 1064px) {
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
 @media screen and (min-width: 969px) {
   .card-container {
     display: flex;
@@ -236,7 +243,7 @@ p {
   }
 }
 
-@media screen and (max-width: 1064px) {
+@media screen and (max-width: 485px) {
   .card-container {
     display: flex;
     justify-content: space-around;
@@ -275,12 +282,7 @@ p {
   }
 }
 
-@media screen and (max-width: 485px) {
-  .card-container {
-    display: flex;
-    justify-content: space-around;
-  }
-}
+
 
 
 
