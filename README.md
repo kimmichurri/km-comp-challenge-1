@@ -17,6 +17,8 @@ to stack when the screen size reached a smaller mobile size.
 
 #My site
 
-
+![kimberlymyers_mod1_static-comp-1_index html copy](https://user-images.githubusercontent.com/43019784/49878959-25021900-fde6-11e8-883b-eba2f86a4e6b.png)
 
 #Comp site
+
+<img width="600" alt="screen shot 2018-12-09 at 7 47 39 pm" src="https://user-images.githubusercontent.com/43019784/49878952-1f0c3800-fde6-11e8-980c-ede078fa5134.png">
