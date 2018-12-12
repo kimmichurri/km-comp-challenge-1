@@ -2,6 +2,8 @@
 /*  font-family: Open-sans, sans-serif;
 */}
 
+
+
 body {
     background-color: #FFF;
     font-family: 'Roboto Condensed', sans-serif;
@@ -17,33 +19,42 @@ header {
   justify-content: space-between;
 }
 
-
+.right-side {
+  display: flex;
+  flex-direction: column;
+}
 
 
 
 /*HEADER LEFT SIDE*/
 
-nav {
+/*nav {
   background-color: #194A40;
-}
+}*/
 
-ul {
+/*ul {
   align-content: flex-start;
   display: flex;
   margin-left: -30px;
   margin-top: 60px;
+}*/
+
+.nav-list-items {
+  padding: 10px;
+    margin-top: 52px;
 }
+
 
 li {
   color: #FFF;
   display: inline-block;
   font-size: 15px;
-  margin-left: 9px;
+  margin-left: 4px;
 }
 
-.nav-icons {
+/*.nav-icons {
   margin-left: 10px;
-}
+}*/
 
 
 
@@ -53,22 +64,23 @@ li {
 /*HEADER RIGHT SIDE*/
 
 .user-menu {
-  display:flex;
-  flex-direction: column;
-  margin-top: 208px;
-  /*display: inherit;*/
+  display: inline-flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+  margin-top: 12px;
 }
 
-.launch-pad {
-display: inline-block;
+/*.launch-pad {
+  display: flex;
+  flex-direction: row;
 /*align-content: center;*/
-}
+/*}*/
 
-.user-sign-in {
+/*.user-sign-in {
   display: flex;
   margin-top: -75px;
   margin-right: 28px;
-}
+}*/
 
 /*.admin-username {
   margin-top: -128px;
@@ -80,6 +92,10 @@ display: inline-block;
 }*/
 
 .logo {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  width: 40px;
 }
 
 
@@ -282,7 +298,16 @@ p {
   }
 }
 
-
+@media screen and (max-width: 485px) {
+  header {
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    margin: 10px;
+    /*this is when the 2 cards in the row become 1, and then I want the admin part of the page to center above the list item nav part on the left side of the page */
+  }
+}
 
 
 
